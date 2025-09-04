@@ -1,22 +1,12 @@
 # EEG and Decision Game-Based Prediction of Trait Anxiety
 
-**Team Members:**
-- Ahmad Raza (220088)  
-- Anya Rajan (220191)  
-- Debarpita Dash (220328)  
-- Manasvi Nidugala (220613)  
-- Nischay Patel (220721)  
-- Poojal Katiyar (220770)  
-
----
-
-## 🧠 Project Overview
+## Project Overview
 
 This project aims to **predict trait anxiety levels** using a combination of **behavioral patterns** and **EEG signals** collected during a decision-making game. By leveraging **machine learning (ML)** and **deep learning (DL)** techniques, we seek to build **computational models** that provide a more objective understanding of anxiety—beyond traditional self-report tools.
 
 ---
 
-## 🔍 Problem Statement
+## Problem Statement
 
 Trait anxiety significantly impacts cognitive processes like decision-making, attentional control, and emotional regulation. While tools like the **State-Trait Anxiety Inventory (STAI)** offer psychological insight, they lack the neurophysiological depth needed for computational psychiatry.
 
@@ -24,7 +14,7 @@ This study integrates **EEG data**, **game-based behavior**, and **neurophysiolo
 
 ---
 
-## 📚 Background & Significance
+## Background & Significance
 
 ### 1. Trait vs. State Anxiety
 - **Trait Anxiety:** Chronic tendency to feel anxious; stable across situations.
@@ -49,7 +39,7 @@ EEG frequency bands and their functions under anxiety:
 
 ---
 
-## 🧪 Physiological & Neuromodulatory Data
+## Physiological & Neuromodulatory Data
 
 ### 1. Stress Pathways:
 - **HPA Axis:** Cortisol regulation → Mood, energy, and anxiety modulation
@@ -62,26 +52,26 @@ EEG frequency bands and their functions under anxiety:
 
 ---
 
-## 🎮 Decision-Making Task Design
+## Decision-Making Task Design
 
 Data collected during 3 key windows:
 
-### 🧠 Tonic Epoch
+### Tonic Epoch
 - EEG recorded **1000 ms before decision**
 - Captures brain activity during deliberation
 
-### ⏳ Decision Window
+### Decision Window
 - Participant moves to center before choosing to **explore** (switch tree) or **exploit** (stay)
 - Longer deliberation = greater hesitation
 
-### 🖱️ Execution Window
+### Execution Window
 - Time taken to **move mouse and click**
 - Faster response = confidence  
 - Slower response = hesitation or reconsideration
 
 ---
 
-## 👥 Participants & Trials
+## Participants & Trials
 
 - **N = 55 participants** (18 females)
 - Each performed **~200–250 trials**
